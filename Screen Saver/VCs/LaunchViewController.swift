@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LaunchViewController.swift
 //  Screen Saver
 //
 //  Created by Rahul Pawar on 5/14/22.

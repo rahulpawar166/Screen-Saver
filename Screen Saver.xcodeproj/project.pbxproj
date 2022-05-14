@@ -7,23 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CA3963955EFA63351F98506 /* Pods_Screen_Saver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AF4ACDEDD79D2A9E8DDD37 /* Pods_Screen_Saver.framework */; };
 		B76853F528304E9100928A0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76853F428304E9100928A0B /* AppDelegate.swift */; };
 		B76853F728304E9100928A0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76853F628304E9100928A0B /* SceneDelegate.swift */; };
-		B76853F928304E9100928A0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76853F828304E9100928A0B /* ViewController.swift */; };
+		B76853F928304E9100928A0B /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76853F828304E9100928A0B /* LaunchViewController.swift */; };
 		B76853FC28304E9100928A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76853FA28304E9100928A0B /* Main.storyboard */; };
 		B76853FE28304E9200928A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76853FD28304E9200928A0B /* Assets.xcassets */; };
 		B768540128304E9200928A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76853FF28304E9200928A0B /* LaunchScreen.storyboard */; };
+		B768540B2830573D00928A0B /* snowy_weather.json in Resources */ = {isa = PBXBuildFile; fileRef = B768540A2830573D00928A0B /* snowy_weather.json */; };
+		B768540F2830574C00928A0B /* cloudy_weather.json in Resources */ = {isa = PBXBuildFile; fileRef = B768540C2830574C00928A0B /* cloudy_weather.json */; };
+		B76854102830574C00928A0B /* rainy_weather.json in Resources */ = {isa = PBXBuildFile; fileRef = B768540D2830574C00928A0B /* rainy_weather.json */; };
+		B76854112830574C00928A0B /* sunny_weather.json in Resources */ = {isa = PBXBuildFile; fileRef = B768540E2830574C00928A0B /* sunny_weather.json */; };
+		B76854202830575F00928A0B /* work_together.json in Resources */ = {isa = PBXBuildFile; fileRef = B76854122830575E00928A0B /* work_together.json */; };
+		B76854212830575F00928A0B /* mountains_morning.json in Resources */ = {isa = PBXBuildFile; fileRef = B76854132830575E00928A0B /* mountains_morning.json */; };
+		B76854222830575F00928A0B /* ironman.json in Resources */ = {isa = PBXBuildFile; fileRef = B76854142830575E00928A0B /* ironman.json */; };
+		B76854232830575F00928A0B /* apple.json in Resources */ = {isa = PBXBuildFile; fileRef = B76854152830575E00928A0B /* apple.json */; };
+		B76854242830575F00928A0B /* love_birds.json in Resources */ = {isa = PBXBuildFile; fileRef = B76854162830575E00928A0B /* love_birds.json */; };
+		B76854252830575F00928A0B /* guitars.json in Resources */ = {isa = PBXBuildFile; fileRef = B76854172830575E00928A0B /* guitars.json */; };
+		B76854262830575F00928A0B /* spaceship_night.json in Resources */ = {isa = PBXBuildFile; fileRef = B76854182830575E00928A0B /* spaceship_night.json */; };
+		B76854272830575F00928A0B /* coding.json in Resources */ = {isa = PBXBuildFile; fileRef = B76854192830575E00928A0B /* coding.json */; };
+		B76854282830575F00928A0B /* night_sky.json in Resources */ = {isa = PBXBuildFile; fileRef = B768541A2830575E00928A0B /* night_sky.json */; };
+		B76854292830575F00928A0B /* vacation.json in Resources */ = {isa = PBXBuildFile; fileRef = B768541B2830575F00928A0B /* vacation.json */; };
+		B768542A2830575F00928A0B /* grid.json in Resources */ = {isa = PBXBuildFile; fileRef = B768541C2830575F00928A0B /* grid.json */; };
+		B768542B2830575F00928A0B /* be_happy.json in Resources */ = {isa = PBXBuildFile; fileRef = B768541D2830575F00928A0B /* be_happy.json */; };
+		B768542C2830575F00928A0B /* yoga_developer.json in Resources */ = {isa = PBXBuildFile; fileRef = B768541E2830575F00928A0B /* yoga_developer.json */; };
+		B768542D2830575F00928A0B /* boat_in_rain.json in Resources */ = {isa = PBXBuildFile; fileRef = B768541F2830575F00928A0B /* boat_in_rain.json */; };
+		B7AF64EC283058310042A95D /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF64EB283058310042A95D /* Animations.swift */; };
+		B7AF64EF2830589B0042A95D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AF64EE2830589B0042A95D /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47AF4ACDEDD79D2A9E8DDD37 /* Pods_Screen_Saver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Screen_Saver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6157A7B297A02744E4D96D /* Pods-Screen Saver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Screen Saver.release.xcconfig"; path = "Target Support Files/Pods-Screen Saver/Pods-Screen Saver.release.xcconfig"; sourceTree = "<group>"; };
 		B76853F128304E9100928A0B /* Screen Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76853F428304E9100928A0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B76853F628304E9100928A0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B76853F828304E9100928A0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B76853F828304E9100928A0B /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		B76853FB28304E9100928A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B76853FD28304E9200928A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B768540028304E9200928A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B768540228304E9200928A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B768540A2830573D00928A0B /* snowy_weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = snowy_weather.json; sourceTree = "<group>"; };
+		B768540C2830574C00928A0B /* cloudy_weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cloudy_weather.json; sourceTree = "<group>"; };
+		B768540D2830574C00928A0B /* rainy_weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rainy_weather.json; sourceTree = "<group>"; };
+		B768540E2830574C00928A0B /* sunny_weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sunny_weather.json; sourceTree = "<group>"; };
+		B76854122830575E00928A0B /* work_together.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = work_together.json; sourceTree = "<group>"; };
+		B76854132830575E00928A0B /* mountains_morning.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mountains_morning.json; sourceTree = "<group>"; };
+		B76854142830575E00928A0B /* ironman.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ironman.json; sourceTree = "<group>"; };
+		B76854152830575E00928A0B /* apple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apple.json; sourceTree = "<group>"; };
+		B76854162830575E00928A0B /* love_birds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = love_birds.json; sourceTree = "<group>"; };
+		B76854172830575E00928A0B /* guitars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guitars.json; sourceTree = "<group>"; };
+		B76854182830575E00928A0B /* spaceship_night.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spaceship_night.json; sourceTree = "<group>"; };
+		B76854192830575E00928A0B /* coding.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coding.json; sourceTree = "<group>"; };
+		B768541A2830575E00928A0B /* night_sky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = night_sky.json; sourceTree = "<group>"; };
+		B768541B2830575F00928A0B /* vacation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vacation.json; sourceTree = "<group>"; };
+		B768541C2830575F00928A0B /* grid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = grid.json; sourceTree = "<group>"; };
+		B768541D2830575F00928A0B /* be_happy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = be_happy.json; sourceTree = "<group>"; };
+		B768541E2830575F00928A0B /* yoga_developer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yoga_developer.json; sourceTree = "<group>"; };
+		B768541F2830575F00928A0B /* boat_in_rain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = boat_in_rain.json; sourceTree = "<group>"; };
+		B7AF64EB283058310042A95D /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		B7AF64EE2830589B0042A95D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FDA2B5B1F2BB6B905B27549A /* Pods-Screen Saver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Screen Saver.debug.xcconfig"; path = "Target Support Files/Pods-Screen Saver/Pods-Screen Saver.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +75,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA3963955EFA63351F98506 /* Pods_Screen_Saver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		136EA8B556539E7207DD6F77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDA2B5B1F2BB6B905B27549A /* Pods-Screen Saver.debug.xcconfig */,
+				7C6157A7B297A02744E4D96D /* Pods-Screen Saver.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		29400A34E8978E4321FE9DC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47AF4ACDEDD79D2A9E8DDD37 /* Pods_Screen_Saver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B76853E828304E9100928A0B = {
 			isa = PBXGroup;
 			children = (
 				B76853F328304E9100928A0B /* Screen Saver */,
 				B76853F228304E9100928A0B /* Products */,
+				136EA8B556539E7207DD6F77 /* Pods */,
+				29400A34E8978E4321FE9DC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +120,59 @@
 		B76853F328304E9100928A0B /* Screen Saver */ = {
 			isa = PBXGroup;
 			children = (
+				B76854082830570D00928A0B /* Animations */,
 				B76853F428304E9100928A0B /* AppDelegate.swift */,
 				B76853F628304E9100928A0B /* SceneDelegate.swift */,
-				B76853F828304E9100928A0B /* ViewController.swift */,
+				B7AF64ED283058820042A95D /* VCs */,
 				B76853FA28304E9100928A0B /* Main.storyboard */,
 				B76853FD28304E9200928A0B /* Assets.xcassets */,
 				B76853FF28304E9200928A0B /* LaunchScreen.storyboard */,
 				B768540228304E9200928A0B /* Info.plist */,
 			);
 			path = "Screen Saver";
+			sourceTree = "<group>";
+		};
+		B76854082830570D00928A0B /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B7AF64EB283058310042A95D /* Animations.swift */,
+				B76854152830575E00928A0B /* apple.json */,
+				B768541D2830575F00928A0B /* be_happy.json */,
+				B768541F2830575F00928A0B /* boat_in_rain.json */,
+				B76854192830575E00928A0B /* coding.json */,
+				B768541C2830575F00928A0B /* grid.json */,
+				B76854172830575E00928A0B /* guitars.json */,
+				B76854142830575E00928A0B /* ironman.json */,
+				B76854162830575E00928A0B /* love_birds.json */,
+				B76854132830575E00928A0B /* mountains_morning.json */,
+				B768541A2830575E00928A0B /* night_sky.json */,
+				B76854182830575E00928A0B /* spaceship_night.json */,
+				B768541B2830575F00928A0B /* vacation.json */,
+				B76854122830575E00928A0B /* work_together.json */,
+				B768541E2830575F00928A0B /* yoga_developer.json */,
+				B76854092830572B00928A0B /* Weather */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		B76854092830572B00928A0B /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				B768540A2830573D00928A0B /* snowy_weather.json */,
+				B768540C2830574C00928A0B /* cloudy_weather.json */,
+				B768540D2830574C00928A0B /* rainy_weather.json */,
+				B768540E2830574C00928A0B /* sunny_weather.json */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		B7AF64ED283058820042A95D /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				B76853F828304E9100928A0B /* LaunchViewController.swift */,
+				B7AF64EE2830589B0042A95D /* HomeVC.swift */,
+			);
+			path = VCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B768540528304E9200928A0B /* Build configuration list for PBXNativeTarget "Screen Saver" */;
 			buildPhases = (
+				38C4A55136777274777A9526 /* [CP] Check Pods Manifest.lock */,
 				B76853ED28304E9100928A0B /* Sources */,
 				B76853EE28304E9100928A0B /* Frameworks */,
 				B76853EF28304E9100928A0B /* Resources */,
+				E68D07BFD5CBF446667ECD75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +235,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76854252830575F00928A0B /* guitars.json in Resources */,
+				B76854242830575F00928A0B /* love_birds.json in Resources */,
+				B768542D2830575F00928A0B /* boat_in_rain.json in Resources */,
+				B76854222830575F00928A0B /* ironman.json in Resources */,
+				B768542A2830575F00928A0B /* grid.json in Resources */,
+				B76854212830575F00928A0B /* mountains_morning.json in Resources */,
+				B76854102830574C00928A0B /* rainy_weather.json in Resources */,
+				B76854112830574C00928A0B /* sunny_weather.json in Resources */,
+				B76854282830575F00928A0B /* night_sky.json in Resources */,
+				B768542C2830575F00928A0B /* yoga_developer.json in Resources */,
 				B768540128304E9200928A0B /* LaunchScreen.storyboard in Resources */,
+				B768540B2830573D00928A0B /* snowy_weather.json in Resources */,
+				B76854232830575F00928A0B /* apple.json in Resources */,
+				B768540F2830574C00928A0B /* cloudy_weather.json in Resources */,
 				B76853FE28304E9200928A0B /* Assets.xcassets in Resources */,
+				B76854262830575F00928A0B /* spaceship_night.json in Resources */,
+				B76854202830575F00928A0B /* work_together.json in Resources */,
+				B76854272830575F00928A0B /* coding.json in Resources */,
 				B76853FC28304E9100928A0B /* Main.storyboard in Resources */,
+				B76854292830575F00928A0B /* vacation.json in Resources */,
+				B768542B2830575F00928A0B /* be_happy.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38C4A55136777274777A9526 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Screen Saver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E68D07BFD5CBF446667ECD75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Screen Saver/Pods-Screen Saver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Screen Saver/Pods-Screen Saver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Screen Saver/Pods-Screen Saver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B76853ED28304E9100928A0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B76853F928304E9100928A0B /* ViewController.swift in Sources */,
+				B76853F928304E9100928A0B /* LaunchViewController.swift in Sources */,
+				B7AF64EF2830589B0042A95D /* HomeVC.swift in Sources */,
 				B76853F528304E9100928A0B /* AppDelegate.swift in Sources */,
+				B7AF64EC283058310042A95D /* Animations.swift in Sources */,
 				B76853F728304E9100928A0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +454,7 @@
 		};
 		B768540628304E9200928A0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA2B5B1F2BB6B905B27549A /* Pods-Screen Saver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +483,7 @@
 		};
 		B768540728304E9200928A0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6157A7B297A02744E4D96D /* Pods-Screen Saver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
